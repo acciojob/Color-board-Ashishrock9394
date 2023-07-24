@@ -19,16 +19,15 @@
     max-width: 800px;
   }
   .square{
-    background-color: rgb(29, 29, 29);
+    background-color: #1d1d1d;
     box-shadow: 0 0 2px #000;
     height: 16px;
     width: 16px;
     margin: 2px;
-    transition: 5s ease;
+    transition: 1s ease;
   }
   
   .square:hover{
+	background-color: #1fc;
     transition-duration: 0s;
-    background-color: rgb(31, 205, 232);
-
   }
