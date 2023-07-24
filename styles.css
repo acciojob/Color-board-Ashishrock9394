@@ -1,4 +1,5 @@
-.container{
+.container{	
+	background-color: rgb(29, 29, 29);
     display: grid;
     grid-template-columns: repeat(40, 20px);
     grid-template-rows: repeat(20, 20px);
@@ -8,7 +9,6 @@
 }
 
 .square{
-	background-color: rgb(29, 29, 29);
     width: 20px;
     height: 20px;
     border: 1px solid black;
