@@ -1,25 +1,21 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #f0f0f0;
-}
-
+/*  your css code here. If applicable */
 .container {
-  display: grid;
-  grid-template-columns: repeat(20, 40px); /* Adjust the number of columns to fit 800 squares */
-  gap: 2px;
-}
+	margin: 0px;
+	padding: 10px;
+	background-color: black;
 
+	display: grid;
+	grid-template-columns: repeat(10,10%);
+	row-gap:10px;
+	
+}
 .square {
-  width: 40px;
-  height: 40px;
-  background-color: #eaeaea;
-  transition: background-color 1s ease; /* Smooth color transition */
+	height: 50px;
+	width: 50px;
+	background-color: grey;
 }
 
 .square:hover {
-  background-color: #6c63ff;
+	background-color: red;
+	transition-duration: 1s;
 }
