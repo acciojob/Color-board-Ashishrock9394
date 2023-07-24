@@ -1,33 +1,25 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body{
-    background: #111;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-	width:100vw;
-    overflow: hidden;
-    margin: 0;
-  }
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .square{
-    background-color: #1d1d1d;
-    box-shadow: 0 0 2px #000;
-    height: 16px;
-    width: 16px;
-    transition: 1s ease;
-  }
-  
-  .square:hover{
-    transition-duration: 0s;
-    background-color: rgba(31, 232, 208, 0.902);
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
 
-  }
+.container {
+  display: grid;
+  grid-template-columns: repeat(20, 40px); /* Adjust the number of columns to fit 800 squares */
+  gap: 2px;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: #eaeaea;
+  transition: background-color 1s ease; /* Smooth color transition */
+}
+
+.square:hover {
+  background-color: #6c63ff;
+}
