@@ -19,7 +19,7 @@
     max-width: 800px;
   }
   .square{
-    background-color: #1d1d1d;
+    background-color: rgb(29,29,29);
     box-shadow: 0 0 2px #000;
     height: 16px;
     width: 16px;
