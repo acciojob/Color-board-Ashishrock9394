@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body{
+}
+
+body {
     background: grey;
     display: flex;
     align-items: center;
@@ -10,25 +10,26 @@
     height: 100vh;
     overflow: hidden;
     margin: 0;
-  }
-  .container{
+}
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     max-width: 800px;
-  }
-  .square{
-    background-color: rgb(29,29,29);
+}
+
+.square {
+    background-color: rgb(29, 29, 29);
     box-shadow: 0 0 2px black;
     height: 16px;
     width: 16px;
     margin: 2px;
     transition: 1s ease;
-  }
-  
-  .square:hover{
-	  transition: 0s ease;
-    background-color: rgba(31, 232, 208, 0.902);
+}
 
-  }
+.square:hover {
+    transition: 0s ease;
+    background-color: rgba(31, 232, 208, 0.902);
+}
