@@ -22,7 +22,7 @@ body {
 }
 
 .square {
-    background-color: rgb(29, 29, 29);
+/*     background-color: rgb(29, 29, 29); */
     box-shadow: 0 0 2px black;
     height: 16px;
     width: 16px;
