@@ -27,11 +27,10 @@ body {
     height: 16px;
     width: 16px;
     margin: 2px;
-	transition: background-color 1s;
+    transition: 1s ease;
 }
 
 .square:hover {
     transition: 0s ease;
-    background-color: rgba(31, 232, 208, 0.902);
-	color: #fff;
+    background-color: rgb(31, 232, 208);
 }
