@@ -3,7 +3,7 @@
 }
 
 body {
-    background: grey;
+    background: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +13,7 @@ body {
 }
 
 .container {
+	margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,10 +27,11 @@ body {
     height: 16px;
     width: 16px;
     margin: 2px;
-    transition: 1s ease;
+	transition: background-color 1s;
 }
 
 .square:hover {
     transition: 0s ease;
     background-color: rgba(31, 232, 208, 0.902);
+	color: #fff;
 }
