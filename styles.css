@@ -28,5 +28,6 @@
   }
   
   .square:hover{
+    background-color: aqua;
     transition-duration: 0s;
   }
